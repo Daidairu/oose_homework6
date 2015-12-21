@@ -10,3 +10,18 @@ public class oose_6a {
 	}
 
 }
+
+abstract class compoent
+{
+	abstract void op();
+}
+
+class Question {
+	   String description;
+	   public Question(String desc) {
+	      this.description = desc;
+	   }
+	   public void print() {
+	      System.out.println(description);
+	   }      
+	}
