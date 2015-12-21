@@ -16,6 +16,12 @@ abstract class compoent
 	abstract void op();
 }
 
+class composite extends compoent
+{
+	void op(){};
+}
+
+
 class Question {
 	   String description;
 	   public Question(String desc) {
